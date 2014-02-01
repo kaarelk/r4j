@@ -1,0 +1,6 @@
+Raft based consistent key-value store based with leveldb as backing store.
+CRUD functionality implemented in RESTful way using jersey and jetty as http provider.
+
+Log will be kept in separate DB than data
+
+Cluster communication using zeromq (jeromq)
